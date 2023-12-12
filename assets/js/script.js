@@ -14,14 +14,14 @@
 		}
 	});
 	// Preloader js start
-	function preloader() {
-		$('#preloader').delay(0).fadeOut();
-	};
+	// function preloader() {
+	// 	$('#preloader').delay(0).fadeOut();
+	// };
 
-	$(window).on('load', function () {
-		preloader();
-		wowAnimation();
-	});
+	// $(window).on('load', function () {
+	// 	preloader();
+	// 	wowAnimation();
+	// });
 
 	// banner slider js
 	$(".banner_slider").slick({
