@@ -20,7 +20,6 @@
 
 	$(window).on('load', function () {
 		preloader();
-		wowAnimation();
 	});
 
 	// banner slider js
