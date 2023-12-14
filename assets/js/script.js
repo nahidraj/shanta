@@ -22,6 +22,21 @@
 		preloader();
 	});
 
+	// popup search js
+	$(".search_btn").on("click", function () {
+		$(".search_popup_box").fadeIn()
+	})
+	$(".close_search_popup").on("click", function () {
+		$(".search_popup_box").fadeOut()
+	})
+
+	$(".control_mobile_menu").on("click", function () {
+		$(".main_menu .menu").addClass("show_mobile_menu")
+	})
+	$(".mobile_close_menu").on("click", function () {
+		$(".main_menu .menu").removeClass("show_mobile_menu")
+	})
+
 	// banner slider js
 	$(".banner_slider").slick({
 		infinite: true,
@@ -88,12 +103,6 @@
 		slidesToScroll: 1,
 		prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
 		nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-		responsive: [{
-			breakpoint: 576,
-			settings: {
-				slidesToShow: 3,
-			},
-		}, ],
 	});
 
 	// gallery popup js
@@ -150,18 +159,18 @@
 	});
 
 
-	// mobilel menu js
+	// // mobilel menu js
 
-	$(".mobile_menu_bar i").on("click", function () {
-		var $icon = $(this);
-		$(".main_menu").toggleClass("active");
+	// $(".mobile_menu_bar i").on("click", function () {
+	// 	var $icon = $(this);
+	// 	$(".main_menu").toggleClass("active");
 
-		// Toggle between different icons using classes
-		if ($icon.hasClass("fa-bars")) {
-			$icon.removeClass("fa-bars").addClass("fa-times");
-		} else {
-			$icon.removeClass("fa-times").addClass("fa-bars");
-		}
-	});
+	// 	// Toggle between different icons using classes
+	// 	if ($icon.hasClass("fa-bars")) {
+	// 		$icon.removeClass("fa-bars").addClass("fa-times");
+	// 	} else {
+	// 		$icon.removeClass("fa-times").addClass("fa-bars");
+	// 	}
+	// });
 
 })(jQuery);

@@ -33,9 +33,12 @@
   <header class="header" id="sticky-header">
     <div class="main_menu">
       <div class="container-fluid">
-        <div class="d-lg-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center">
           <div class="logo">
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          </div>
+          <div class="control_mobile_menu d-block d-lg-none">
+            <i class="fas fa-bars"></i>
           </div>
           <div class="menu d-flex align-items-center">
             <ul class="list-unstyled">
@@ -103,7 +106,10 @@
                 </ul>
               </li>
             </ul>
-            <div class="search d-none d-lg-block position-relative">
+            <div class="mobile_close_menu d-block d-lg-none">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="search position-relative">
               <button class="search_btn"><i class="fas fa-search"></i></button>
             </div>
           </div>
@@ -111,6 +117,268 @@
       </div>
     </div>
   </header>
+  <div class="search_popup_box" style="background: url(assets/img/ser-popup.jpg);">
+    <div class="overlay position-relative">
+      <div class="close_search_popup">
+        <button><i class="fas fa-times"></i></button>
+      </div>
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <div class="text">
+            <h4 class="title"> search projects </h4>
+            <p>
+              We understand that no two projects are ever the same, so when it comes to appointing a contractor to
+              deliver the services you need confidence is key.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="search_fields">
+            <div class="input_groups">
+              <label>By Project</label>
+              <input type="text" placeholder="Type the project name">
+            </div>
+            <div class="input_groups">
+              <label>By Location</label>
+              <select>
+                <option>Muhammadpur</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+                <option>Gulshan</option>
+              </select>
+            </div>
+            <div class="input_groups">
+              <label>By Size (Sft)</label>
+              <select>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+                <option>All Size</option>
+              </select>
+            </div>
+            <div class="input_groups">
+              <label>By Type</label>
+              <select>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+                <option>All Type</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="project_match">
+            <h5 class="title"> 85 Projects Matched </h5>
+            <div class="project_container">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d-block w-100">
+                    <div class="d-flex align-items-center">
+                      <div class="image">
+                        <img src="assets/img/pr-1.jpg" alt="pr-1">
+                      </div>
+                      <div class="pro_text">
+                        <h6 class="pro_title">Aura</h6>
+                        <p>Gulshan</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- header part end -->
 
   <!-- main area part start -->
@@ -128,7 +396,16 @@
           <div class="row align-self-center">
             <div class="col-lg-5 ms-auto">
               <div class="info">
-
+                <a class="vidplay" href="https://www.youtube.com/watch?v=L8sPZIkKywA">
+                  <div class="icon">
+                    <img src="assets/img/play.png" alt="play" width="30">
+                  </div>
+                </a>
+                <div class="banner_menus">
+                  <a href="#">Ongoing</a>
+                  <a href="#">Completed</a>
+                  <a href="#">Upcomming</a>
+                </div>
               </div>
             </div>
           </div>
@@ -141,7 +418,7 @@
     <section class="lands_to_landmark" style="background: url(assets/img/bg-1.jpeg);">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-5 mx-auto">
+          <div class="col-lg-8 col-xl-6 col-xxl-5 mx-auto">
             <div class="section_title text-center">
               <h2 class="title">Witness, as We Transform Your Land to Landmark</h2>
               <p>Partner with the best Artisan, to transform your land into a milestone of aesthetic marvel and
@@ -218,8 +495,8 @@
       <div class="overlay">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 align-self-center">
-              <div class="section_title text-start">
+            <div class="col-lg-12 col-xl-4 align-self-center">
+              <div class="section_title text-center text-xl-start">
                 <h2 class="title text-white">WHY SHANTA HOLDINGS</h2>
                 <p class="text-white">
                   Shanta aspires to weave an unprecedented experience of fine living cocooned in comfort for you. It’s
@@ -228,48 +505,84 @@
                 <a href="#" class="common_btn">Explore More</a>
               </div>
             </div>
-            <div class="col-lg-7 ms-auto">
+            <div class="col-lg-12 mx-auto col-xl-7 ms-auto">
               <div class="row g-4">
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Prime Locations
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Top Consultants
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Prime Locations
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Prime Locations
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Prime Locations
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
-                  <div class="info_item text-center">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="info_item text-center position-relative">
                     <button class="d-block w-100">
                       Prime Locations
                     </button>
+                    <div class="details_box">
+                      <h4 class="title">Top Consultants</h4>
+                      <p>We engage the leading consultants in their respective fields from both home and abroad, to
+                        ensure that every facet of a project is designed to perfection. After all, the best designs can
+                        only come from the best minds. </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -284,23 +597,23 @@
       <div class="search_box">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-2">
-              <div class="section_title text-start">
+            <div class="col-xl-3 align-self-center">
+              <div class="section_title text-center text-xl-start">
                 <h2 class="title text-white">
                   OUR PROJECTS
                 </h2>
               </div>
             </div>
-            <div class="col-lg-9 ms-auto">
+            <div class="col-xl-9 ms-auto">
               <form action="#">
                 <div class="row">
-                  <div class="col-lg-8">
+                  <div class="col-lg-6 mb-4 mb-lg-0 col-xxl-8">
                     <div class="input_groups position-relative">
                       <input type="text" placeholder="Type the project name or location">
                       <button type="submit"><i class="fas fa-search"></i></button>
                     </div>
                   </div>
-                  <div class="col-lg-2">
+                  <div class="col-lg-3 mb-4 col-sm-6 col-xxl-2">
                     <div class="input_groups">
                       <select>
                         <option value="A">Project Status</option>
@@ -310,7 +623,7 @@
                       </select>
                     </div>
                   </div>
-                  <div class="col-lg-2">
+                  <div class="col-lg-3 mb-4 col-sm-6 col-xxl-2">
                     <div class="input_groups">
                       <select>
                         <option value="A">Project Type</option>
@@ -337,7 +650,7 @@
     <section class="social_media_area">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <h4 class="widget_title">
               <span><img src="assets/img/y.png" alt="y" width="40"> Youtube</span>
             </h4>
@@ -350,7 +663,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
             <h4 class="widget_title">
               <span><img src="assets/img/i.png" alt="" width="40"> Instagram</span>
             </h4>
@@ -389,7 +702,7 @@
     <section class="contact_area" style="background: url(assets/img/contact-image.jpg);">
       <div class="container-fluid">
         <div class="row g-5">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-12 mx-auto">
             <a href="#" class="d-block w-100">
               <div class="contact_item">
                 <div class="info text-center">
@@ -399,7 +712,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 mx-auto">
             <a href="#" class="d-block w-100">
               <div class="contact_item">
                 <div class="info text-center">
@@ -409,7 +722,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 mx-auto">
             <a href="#" class="d-block w-100">
               <div class="contact_item">
                 <div class="info text-center">
@@ -436,18 +749,18 @@
   <footer class="footer_area">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4">
-          <div class="info">
+        <div class="col-lg-4 col-md-6">
+          <div class="info text-center text-md-start">
             <p>© 2023 Shanta Holdings Ltd.</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="info text-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="info text-center text-md-end text-lg-center">
             <p>Designed & Developed by <a href="#">Shanta</a></p>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="social text-end pe-5">
+          <div class="social text-center text-md-start text-lg-end pe-lg-5 mt-4 mt-lg-0">
             <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
