@@ -119,6 +119,14 @@ p {
 	padding: 0 50px;
 }
 
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
 /* section title */
 .section_title {
 	margin-bottom: 50px;
@@ -1120,6 +1128,7 @@ p {
 ===============================*/
 .footer_area {
 	padding: 30px 0;
+	border-top: 1px solid var(--border);
 }
 
 .footer_area .info a {
@@ -1221,3 +1230,346 @@ p {
 	color: var(--white);
 	border-color: var(--white);
 }
+
+/* bread crumb area start */
+.breadcrumb_area {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.breadcrumb_area .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 300px 0;
+}
+
+.breadcrumb_area .content .subtitle {
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--white);
+	text-transform: uppercase;
+	background-color: var(--primary);
+	display: inline-block;
+	padding: 7px 24px;
+	border-radius: 3px;
+}
+
+.breadcrumb_area .content .title {
+	font-size: 42px;
+	font-weight: 300;
+	color: var(--white);
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+/* bread crumb area end */
+
+/* about us area start */
+
+.about_area .about_us .text {
+	padding: 50px;
+	padding-left: 30px;
+	padding-bottom: 0;
+}
+
+.about_area .about_us .text .title {
+	font-size: 42px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.about_area .about_us .text p {
+	margin-top: 30px;
+}
+
+.about_area .about_us .text p a {
+	color: var(--primary);
+}
+
+.who_we_are {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: var(--background);
+}
+
+.who_we_are .text {
+	padding-left: 30px;
+}
+
+.who_we_are .text p+p {
+	margin-top: 30px;
+}
+
+.our_approach {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.our_approach .overlay {
+	padding: 80px 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.our_approach .overlay .title {
+	font-size: 42px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: var(--white);
+	letter-spacing: 2px;
+}
+
+.our_approach .overlay p {
+	color: var(--white);
+	margin-top: 30px;
+}
+
+.about_area .our_logo {
+	padding-top: 80px;
+}
+
+.about_area .our_logo .title {
+	font-size: 42px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: var(--black);
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.about_area .our_logo .image {
+	padding: 60px;
+	background-color: var(--white);
+	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
+}
+
+.about_area .our_logo .text {
+	padding-left: 30px;
+}
+
+.about_area .our_logo .text p {
+	margin-bottom: 30px;
+}
+
+/* about us area end */
+/* mission vision area start */
+.mission_vision_area {
+	padding: 80px 0;
+	background-color: var(--background);
+}
+
+.mission_vision_area .mission_item {
+	display: flex;
+	align-items: center;
+}
+
+.mission_vision_area .mission_item:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.mission_vision_area .mission_item+.mission_item {
+	margin-top: 50px;
+}
+
+.mission_vision_area .mission_item .box {
+	width: 300px;
+	height: 300px;
+	background-color: var(--primary);
+	border-radius: 5px;
+	color: var(--white);
+	padding: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 auto;
+	margin-right: 70px;
+}
+
+
+.mission_vision_area .mission_item:nth-child(even) .box {
+	margin-left: 70px;
+}
+
+.mission_vision_area .mission_item .box .title {
+	font-size: 28px;
+	font-weight: 300;
+	color: var(--white);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.mission_vision_area .mission_item .text p+p {
+	margin-top: 30px;
+}
+
+
+/* mission vision area end */
+/* board of director area start */
+.board_of_director {
+	padding: 80px 0;
+}
+
+.board_of_director .director_item {
+	display: flex;
+	background-color: var(--background);
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.board_of_director .director_item:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.board_of_director .director_item+.director_item {
+	margin-top: 50px;
+}
+
+.board_of_director .director_item .image {
+	width: 340px;
+	height: 340px;
+	border-radius: 5px;
+	flex: 0 0 auto;
+	margin-right: 70px;
+	overflow: hidden;
+}
+
+.board_of_director .director_item:nth-child(even) .image {
+	margin-left: 70px;
+	margin-right: 0;
+}
+
+.board_of_director .director_item:nth-child(even) .text {
+	text-align: right;
+}
+
+.board_of_director .director_item .text .name {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.board_of_director .director_item .text .designation {
+	font-size: 16px;
+	font-weight: 400;
+	color: #5e5e5e;
+	text-transform: uppercase;
+}
+
+.board_of_director .director_item .text p {
+	margin-top: 30px;
+}
+
+/* board of director area end */
+/* management team area start */
+.management_team {
+	padding: 80px 0;
+}
+
+.management_team .team_title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.management_team .ceo {
+	display: flex;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: var(--background);
+	margin-bottom: 50px;
+}
+
+.management_team .ceo .image {
+	width: 340px;
+	height: 340px;
+	border-radius: 5px;
+	flex: 0 0 auto;
+	margin-right: 70px;
+	overflow: hidden;
+}
+
+.management_team .ceo .text .name {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.management_team .ceo .text .designation {
+	font-size: 16px;
+	font-weight: 400;
+	color: #5e5e5e;
+	text-transform: uppercase;
+}
+
+.management_team .ceo .text p {
+	margin-top: 30px;
+}
+
+.management_team .team_item {
+	background-color: var(--background);
+	border-radius: 10px;
+	padding: 30px;
+	height: 100%;
+}
+
+.management_team .team_item .image {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.management_team .team_item .text {
+	margin-top: 30px;
+}
+
+.management_team .team_item .text .name {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.management_team .team_item .text .designation {
+	font-size: 16px;
+	font-weight: 400;
+	color: #5e5e5e;
+	text-transform: uppercase;
+}
+
+.management_team .team_item .text p {
+	margin-top: 20px;
+}
+
+.management_team .team_item .text a {
+	color: var(--primary);
+	margin-top: 14px;
+	font-weight: 500;
+}
+
+.management_team .team_item .text a:hover {
+	text-decoration: underline;
+}
+
+.management_team .team_main {
+	margin-bottom: 50px;
+}
+
+.management_team .team_groups .image {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.management_team .team_groups .text p {
+	margin-top: 30px;
+}
+
+/* management team area end */
