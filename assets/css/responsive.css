@@ -105,6 +105,53 @@
   .project_search_area .search_map {
     height: 400px;
   }
+
+  .about_area .about_us .text {
+    padding: 24px;
+    padding-left: 0px;
+  }
+
+  .breadcrumb_area .overlay {
+    padding: 230px 0;
+  }
+
+  .about_area .about_us .text .title {
+    font-size: 32px;
+  }
+
+  .who_we_are .text {
+    padding-left: 0;
+  }
+
+  .our_approach .overlay .title {
+    font-size: 32px;
+  }
+
+  .about_area .our_logo .title {
+    font-size: 32px;
+  }
+
+  .mission_vision_area .mission_item .box {
+    margin-right: 30px;
+  }
+
+  .mission_vision_area .mission_item:nth-child(2n) .box {
+    margin-left: 30px;
+  }
+
+  .board_of_director .director_item .image {
+    width: 280px;
+    height: 280px;
+    margin-right: 30px;
+  }
+
+  .board_of_director .director_item:nth-child(2n) .image {
+    margin-left: 30px;
+  }
+
+  .management_team .ceo .image {
+    margin-right: 30px;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -224,6 +271,33 @@
   .show_mobile_menu {
     right: 0 !important;
   }
+
+  .about_area .our_logo .text {
+    padding-left: 0;
+  }
+
+  .mission_vision_area .mission_item .box {
+    width: 255px;
+    height: 255px;
+  }
+
+  .management_team .team_title {
+    font-size: 30px;
+  }
+
+  .management_team .ceo {
+    display: block;
+  }
+
+  .management_team .ceo .image {
+    margin-bottom: 30px;
+  }
+
+  .management_team .team_item {
+    padding: 20px;
+    height: auto;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -233,6 +307,34 @@
 
   .search_popup_box {
     overflow-Y: auto;
+  }
+
+  .mission_vision_area .mission_item {
+    display: block;
+  }
+
+  .mission_vision_area .mission_item .box {
+    margin-bottom: 30px;
+  }
+
+  .mission_vision_area .mission_item:nth-child(2n) .box {
+    margin-left: 0;
+  }
+
+  .board_of_director .director_item {
+    display: block;
+  }
+
+  .board_of_director .director_item .image {
+    margin-bottom: 30px;
+  }
+
+  .board_of_director .director_item:nth-child(2n) .text {
+    text-align: left;
+  }
+
+  .board_of_director .director_item:nth-child(2n) .image {
+    margin-left: 0;
   }
 }
 
@@ -274,4 +376,29 @@
     transform: rotate(51deg);
   }
 
+  .about_area .about_us .text {
+    padding-left: 12px;
+  }
+
+  .breadcrumb_area .content .title {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .board_of_director .director_item {
+    padding: 20px;
+  }
+
+  .management_team .ceo .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .management_team .ceo {
+    padding: 20px;
+  }
+
+  .management_team .team_title {
+    font-size: 24px;
+  }
 }

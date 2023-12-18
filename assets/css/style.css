@@ -1292,6 +1292,7 @@ p {
 .who_we_are {
 	padding-top: 80px;
 	padding-bottom: 80px;
+	margin-top: 80px;
 	background-color: var(--background);
 }
 
@@ -1365,7 +1366,6 @@ p {
 
 .mission_vision_area .mission_item {
 	display: flex;
-	align-items: center;
 }
 
 .mission_vision_area .mission_item:nth-child(even) {
@@ -1394,6 +1394,7 @@ p {
 
 .mission_vision_area .mission_item:nth-child(even) .box {
 	margin-left: 70px;
+	margin-right: 0;
 }
 
 .mission_vision_area .mission_item .box .title {
