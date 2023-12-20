@@ -155,6 +155,10 @@
 }
 
 @media (max-width:991.98px) {
+  p {
+    font-size: 15px;
+  }
+
   .header .main_menu {
     padding: 10px 0;
   }
@@ -298,6 +302,28 @@
     height: auto;
     margin-bottom: 30px;
   }
+
+  .companies_area .text .title {
+    font-size: 30px;
+  }
+
+  .clients_area .text .title {
+    font-size: 30px;
+  }
+
+  .csr_area .text .title {
+    font-size: 30px;
+  }
+
+  .projects_item {
+    width: 50%;
+  }
+
+  .projects_item .info {
+    background-color: var(--white);
+    width: 100%;
+    padding: 30px 30px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -335,6 +361,14 @@
 
   .board_of_director .director_item:nth-child(2n) .image {
     margin-left: 0;
+  }
+
+  .clients_area .text .title {
+    font-size: 24px;
+  }
+
+  .companies_area .text .title {
+    font-size: 24px;
   }
 }
 
@@ -400,5 +434,14 @@
 
   .management_team .team_title {
     font-size: 24px;
+  }
+
+  .projects_area .projects_btn button {
+    padding: 6px 17px;
+    margin-right: 0;
+  }
+
+  .projects_item {
+    width: 100%;
   }
 }
