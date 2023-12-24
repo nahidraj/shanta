@@ -152,6 +152,14 @@
   .management_team .ceo .image {
     margin-right: 30px;
   }
+
+  .news_events .news_item .text {
+    padding: 24px;
+  }
+
+  .news_events .news_item .text .title {
+    font-size: 16px;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -324,6 +332,22 @@
     width: 100%;
     padding: 30px 30px;
   }
+
+  .news_details_area .text .title {
+    font-size: 30px;
+  }
+
+  .career_area .top_info .overlay .title {
+    font-size: 30px;
+  }
+
+  .breadcrumb_area .overlay {
+    padding: 150px 0;
+  }
+
+  .career_area .form_area .title {
+    font-size: 30px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -369,6 +393,23 @@
 
   .companies_area .text .title {
     font-size: 24px;
+  }
+
+  .contact_areas .contact_top_info .image {
+    width: 100%;
+    height: 388px;
+  }
+
+  .contact_areas .contact_top_info .text {
+    width: 100%;
+  }
+
+  .contact_areas .contact_main .form_area .title {
+    font-size: 30px;
+  }
+
+  .contact_areas .contact_top_info .text {
+    padding: 30px;
   }
 }
 

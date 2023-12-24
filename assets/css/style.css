@@ -1258,6 +1258,7 @@ p {
 
 .breadcrumb_area .content .title {
 	font-size: 42px;
+	line-height: 58px;
 	font-weight: 300;
 	color: var(--white);
 	text-transform: uppercase;
@@ -1697,29 +1698,29 @@ p {
 	margin-bottom: 30px;
 }
 
-.csr_area .gallery_image {
+.gallery_image {
 	margin-top: 60px;
 }
 
-.csr_area .gallery_image .gallery_item {
+.gallery_image .gallery_item {
 	overflow: hidden;
 }
 
-.csr_area .gallery_image .gallery_item img {
+.gallery_image .gallery_item img {
 	transition: var(--transision);
 }
 
-.csr_area .gallery_image .gallery_item:hover img {
+.gallery_image .gallery_item:hover img {
 	transform: scale(1.1) rotate(2deg);
 }
 
-.csr_area .gallery_image .gallery_item .overlay {
+.gallery_image .gallery_item .overlay {
 	background: rgba(0, 0, 0, .7);
 	opacity: 0;
 	transition: var(--transision);
 }
 
-.csr_area .gallery_image .gallery_item .overlay a {
+.gallery_image .gallery_item .overlay a {
 	color: var(--white);
 	position: absolute;
 	top: 50%;
@@ -1734,7 +1735,7 @@ p {
 	border-radius: 50%;
 }
 
-.csr_area .gallery_image .gallery_item:hover .overlay {
+.gallery_image .gallery_item:hover .overlay {
 	opacity: 1;
 }
 
@@ -1832,3 +1833,289 @@ p {
 }
 
 /* projects area end */
+/* news and event area start */
+.news_events {
+	padding: 80px 0;
+	background-color: var(--background);
+}
+
+.news_events .news_item {
+	background-color: var(--white);
+	height: 100%;
+}
+
+.news_events .news_item .text {
+	padding: 30px;
+}
+
+.news_events .news_item .text .title {
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--black);
+	transition: var(--transision);
+	margin-bottom: 14px;
+}
+
+.news_events .news_item .text .title:hover {
+	color: var(--primary);
+}
+
+.news_events .news_item .text .date {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.news_events .news_item .text .tagline {
+	margin: 12px 0 24px 0;
+}
+
+.news_events .news_item .text .tagline span {
+	background-color: var(--primary);
+	color: var(--white);
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 40px;
+	padding: 5px 14px;
+}
+
+.news_events .news_item .text p {
+	font-size: 15px;
+}
+
+.news_events .news_item .text .read_more {
+	color: var(--primary);
+	text-decoration: underline;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+.news_events .news_item .text .read_more:hover {
+	letter-spacing: 1px;
+}
+
+/* news and event area end */
+/* news details area start */
+.news_details_area {
+	padding: 80px 0;
+	background-color: var(--background);
+}
+
+
+.news_details_area .text .title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.news_details_area .text p {
+	margin-bottom: 30px;
+}
+
+/* news details area end */
+/* career area start */
+.career_area {
+	background-color: var(--background);
+	padding-bottom: 80px;
+}
+
+.career_area .top_info {
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+}
+
+.career_area .top_info .overlay {
+	width: 100%;
+	padding: 77px 0;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.career_area .top_info .overlay .title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--white);
+	margin-bottom: 20px;
+}
+
+.career_area .top_info .overlay .subtitle {
+	font-size: 22px;
+	font-weight: 300;
+	color: var(--white);
+}
+
+.career_area .top_info .overlay p {
+	margin-top: 24px;
+	color: var(--white);
+}
+
+.career_area .form_area {
+	padding-top: 60px;
+}
+
+.career_area .form_area .title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--black);
+	margin-bottom: 20px;
+}
+
+.career_area .form_area .input_groups {
+	margin-bottom: 14px;
+}
+
+.career_area .form_area label {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+
+.career_area .form_area input,
+textarea {
+	width: 100%;
+	height: 50px;
+	border: 1px solid var(--border);
+	padding: 0 20px;
+	border-radius: 5px;
+	transition: var(--transision);
+}
+
+.career_area .form_area input:focus {
+	border-color: var(--black);
+}
+
+.career_area .form_area textarea {
+	min-height: 170px;
+	padding: 20px;
+}
+
+.career_area .form_area textarea:focus {
+	border-color: var(--black);
+}
+
+.career_area .form_area input[type="file"] {
+	padding: 10px;
+}
+
+.career_area .form_area .submit_btn {
+	width: 100%;
+	padding: 15px 30px;
+	text-align: center;
+	border: 0;
+	background-color: var(--primary);
+	color: var(--white);
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+	margin-top: 6px;
+}
+
+.career_area .form_area .submit_btn:hover {
+	background-color: var(--black);
+}
+
+/* career area end */
+/* contact area start */
+.contact_areas .contact_top_info .image {
+	width: 46%;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+.contact_areas .contact_top_info .text {
+	width: 54%;
+	padding: 50px;
+}
+
+.contact_areas .contact_top_info .text .title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.contact_areas .contact_top_info .text p {
+	margin-top: 20px;
+}
+
+.contact_areas .contact_main {
+	background-color: var(--background);
+	padding: 60px 0 80px 0;
+}
+
+
+.contact_areas .contact_main .form_area .title {
+	font-size: 38px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--black);
+	margin-bottom: 20px;
+}
+
+.contact_areas .contact_main .form_area .input_groups {
+	margin-bottom: 14px;
+}
+
+.contact_areas .contact_main .form_area label {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+
+.contact_areas .contact_main .form_area input,
+textarea,select {
+	width: 100%;
+	height: 50px;
+	border: 1px solid var(--border);
+	background-color: var(--white);
+	padding: 0 20px;
+	border-radius: 5px;
+	transition: var(--transision);
+}
+
+.contact_areas .contact_main .form_area input:focus {
+	border-color: var(--black);
+}
+
+.contact_areas .contact_main .form_area textarea {
+	min-height: 170px;
+	padding: 20px;
+}
+
+.contact_areas .contact_main .form_area textarea:focus {
+	border-color: var(--black);
+}
+
+.contact_areas .contact_main .form_area input[type="file"] {
+	padding: 10px;
+}
+
+.contact_areas .contact_main .form_area .submit_btn {
+	width: 100%;
+	padding: 15px 30px;
+	text-align: center;
+	border: 0;
+	background-color: var(--primary);
+	color: var(--white);
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+	margin-top: 6px;
+}
+
+.contact_areas .contact_main .form_area .submit_btn:hover {
+	background-color: var(--black);
+}
+
+/* contact area end */
