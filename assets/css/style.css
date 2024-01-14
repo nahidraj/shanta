@@ -2220,7 +2220,7 @@ select {
 }
 
 .project_details_area .video_area {
-	padding: 80px;
+	padding: 80px 0;
 	background-color: var(--black);
 	margin-top: 80px;
 }
